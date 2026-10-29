@@ -175,7 +175,7 @@ namespace HCM
                 }
                 Jm_error = Math.Abs(Old_Jm - Jm);
             } while (e < Jm_error); /*do end*/
-            for (i = 0; i < CLUSTER - 1; i++)
+            for (i = 0; i < CLUSTER; i++)
             {
                 sb.Append("{");
                 for (j = 0; j < COORD; j++)
